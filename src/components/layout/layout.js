@@ -13,8 +13,10 @@ const Layout = ({ handleClick, isClicked, children }) => {
   const windowIsDefined = typeof window !== "undefined"
   useEffect(() => {
     if (windowIsDefined) {
+      // @ts-ignore
       window.WOW = require("wowjs")
     }
+    // @ts-ignore
     new WOW.WOW().init()
   }, [])
 
