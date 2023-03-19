@@ -8,7 +8,7 @@ const NavList = ({ isClicked, handleClick }) => {
       <nav
         className={
           isClicked
-            ? "w-full bg-green1/50 backdrop-blur-[16px] backdrop-saturate-[180%] text-white fixed h-screen top-0 left-0 pl-5"
+            ? "w-full bg-green1/50 backdrop-blur-[16px] backdrop-saturate-[180%] text-white fixed h-screen top-0 left-0 pl-5 w-9/12"
             : "invisible"
         }
       >
