@@ -39,7 +39,7 @@ SEOHead.defaultProps = {
   title: "",
   description:
     "Quatre Finance - Enjoy Decentralised Protocols Built On The Blockchain",
-  // url: 'https://kingdomofpandaria.com/',
+  // url: 'https://kingdomofpandaria.com /',
   ogImage: "images/gallery/1.png",
 }
 
