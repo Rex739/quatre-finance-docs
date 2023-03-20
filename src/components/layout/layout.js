@@ -6,6 +6,7 @@ import ScrollButton from "./scrollButton"
 import Spinner from "../spinner"
 import React from "react"
 import TransparenLayer from "../transparentLayer"
+import SideBar from "../sidebar/sidebar"
 // Navbar and Footer Component
 
 const Layout = ({ handleClick, isClicked, children }) => {
@@ -40,10 +41,17 @@ const Layout = ({ handleClick, isClicked, children }) => {
       <>
         {/* white transparent layer when navbar toggle button is clicked  */}
         <TransparenLayer isClicked={isClicked} />
-        <main className="relative font-gothic">
+        <main className="relative bg-green1 font-inter">
           {/* <ScrollButton windowIsDefined={windowIsDefined} /> */}
           <NavBar handleClick={handleClick} isClicked={isClicked} />
-          {children}
+          <main className="wrapper text-white1 lg:flex lg:border-t-[1px] border-borderGray">
+            <div className="hidden lg:block">
+              <SideBar handleClick={handleClick} />
+            </div>
+
+            {children}
+          </main>
+
           <Footer />
         </main>
       </>

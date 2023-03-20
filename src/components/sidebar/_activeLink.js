@@ -13,7 +13,9 @@ const _ActiveLink = ({ handleClick, children, href, className }) => {
     <li onClick={handleClick} className={className}>
       <a
         className={
-          router.asPath === href ? "text-white1 underline" : "text-borderGray hover:text-white1"
+          router.asPath === href
+            ? "text-white1 underline"
+            : "text-borderGray hover:text-white1"
         }
         href={href}
         onClick={handleActiveClick}

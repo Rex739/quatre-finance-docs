@@ -1,4 +1,3 @@
-import ActiveLink from "./activeLink"
 import Link from "next/link"
 import React from "react"
 
@@ -28,24 +27,15 @@ const TopBar = ({ isClicked, handleClick }) => {
             </div>
           </li>
           <div className="hidden lg:flex font-medium">
-            <ActiveLink
-              className="mx-[36.5px]"
-              href="/"
-              handleClick={handleClick}
-              children={"Home"}
-            ></ActiveLink>
-            <ActiveLink
-              className="mx-[36.5px]"
-              href="/#learn"
-              handleClick={handleClick}
-              children={"Learn"}
-            ></ActiveLink>
-            <ActiveLink
-              className="mx-[36.5px]"
-              href="/#community"
-              handleClick={handleClick}
-              children={"Commuinity"}
-            ></ActiveLink>
+            <Link href="/home">
+              <a className="mx-[36.5px] text-white1">Home</a>
+            </Link>
+            <Link href="/">
+              <a className="mx-[36.5px] text-white1">Learn</a>
+            </Link>
+            <Link href="/#community">
+              <a className="mx-[36.5px] text-white1">Community</a>
+            </Link>
           </div>
           <li className="hidden lg:flex">
             <a href="">

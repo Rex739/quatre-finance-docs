@@ -4,7 +4,7 @@ import { sidebarList } from "./data"
 
 const SideBar = ({ handleClick }) => {
   return (
-    <aside className="hidden lg:block  border-r-[1px] border-borderGray py-10 lg:py-20 lg:pr-8 2xl:pr-20 ">
+    <aside className=" lg:border-r-[1px] lg:border-borderGray lg:py-20 lg:pr-8 2xl:pr-20 ">
       <nav className="h-full overflow-y-scroll">
         <ul>
           <li>
@@ -15,8 +15,8 @@ const SideBar = ({ handleClick }) => {
               <_ActiveLink
                 className="mb-4 text-sm hover:text-orange"
                 href={navList.href}
-                handleClick={handleClick}
                 children={navList.navList}
+                handleClick={undefined}
               ></_ActiveLink>
             </div>
           ))}
