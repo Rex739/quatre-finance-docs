@@ -1,5 +1,6 @@
 import Link from "next/link"
 import React from "react"
+import BottomNav from "./bottomNav"
 
 const Docs = ({
   heading,
@@ -10,7 +11,7 @@ const Docs = ({
   previous,
   next,
   nextLink,
-  prevLink
+  prevLink,
 }) => {
   return (
     <section className="py-10 lg:py-20 wrapper">
@@ -24,47 +25,12 @@ const Docs = ({
         <div className="mb-5">{paragraph4}</div>
       </div>
 
-      <section className="flex justify-between py-10 lg:py-20">
-        <div
-          className={[
-            "w-2/4 border border-border-gray rounded-md flex justify-start text-left pl-5",
-            !previous && "invisible",
-          ].join(" ")}
-        >
-          <Link href={"/" + prevLink}>
-            <a>
-              <span className="text-xs font-meduim">Previous</span>
-              <div className="flex">
-                <span className="mr-[8px] font-meduim text-orange">
-                  <img src="images/prev.svg" alt="previous" />
-                </span>
-                <span>{previous}</span>
-              </div>
-            </a>
-          </Link>
-        </div>
-
-        {next && (
-          <div
-            className={[
-              "w-2/4 border border-border-gray rounded-md flex justify-end text-right pr-5",
-              !next && "invisible",
-            ].join(" ")}
-          >
-            <Link href={"/" + nextLink}>
-              <a>
-                <span className="text-xs font-meduim">Next</span>
-                <div className="flex">
-                  <span className="mr-[8px] font-meduim text-orange">
-                    {next}
-                  </span>
-                  <img src="images/next.svg" alt="next" />
-                </div>
-              </a>
-            </Link>
-          </div>
-        )}
-      </section>
+      <BottomNav
+        next={next}
+        previous={previous}
+        prevLink={prevLink}
+        nextLink={nextLink}
+      />
     </section>
   )
 }
