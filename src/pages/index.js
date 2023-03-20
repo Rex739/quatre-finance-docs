@@ -21,6 +21,6 @@ const Home = () => {
       ))}
     </>
   )
-}ƒ
+}
 
 export default Home

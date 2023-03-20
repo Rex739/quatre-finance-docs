@@ -1,4 +1,21 @@
 import React from "react"
+import {
+  aboutDigesu,
+  amount,
+  cycle,
+  differenceBetweenDigesuAndOtherDapps,
+  duration,
+  howToClaimDues,
+  howToGetFinance,
+  howToPayback,
+  liquidation,
+  multiplier,
+  publicVsPrivateBand,
+  quorum,
+  stepsInABand,
+  testnetInfo,
+  whatIsABand,
+} from "../pageLinks"
 
 export const sidebarList = [
   {
@@ -9,7 +26,7 @@ export const sidebarList = [
   {
     id: 1,
     navList: "About Digesu",
-    href: "/about-digesu",
+    href: aboutDigesu,
   },
   {
     id: 2,
@@ -18,71 +35,71 @@ export const sidebarList = [
         Difference between <br /> Digesu & other apps
       </p>
     ),
-    href: "/difference-between-digesu-ad-other-apps",
+    href: differenceBetweenDigesuAndOtherDapps,
   },
   {
     id: 3,
     navList: "What is a Band?",
-    href: "/what-is-a-band",
+    href: whatIsABand,
   },
   {
     id: 4,
     navList: "Steps in a Band",
-    href: "/steps-in-a-band",
+    href: stepsInABand,
   },
   {
     id: 5,
     navList: "Quorum",
-    href: "/quorum",
+    href: quorum,
   },
   {
     id: 6,
     navList: "Amount",
-    href: "/amount",
+    href: amount,
   },
   {
     id: 7,
     navList: "Duration",
-    href: "/duration",
+    href: duration,
   },
   {
     id: 8,
     navList: "Multiplier",
-    href: "/multiplier",
+    href: multiplier,
   },
   {
     id: 9,
     navList: "Liquidation",
-    href: "/liquidation",
+    href: liquidation,
   },
   {
     id: 10,
     navList: "Public VS Private Band",
-    href: "/public-private-band",
+    href: publicVsPrivateBand,
   },
   {
     id: 11,
     navList: "Cycle",
-    href: "/cycle",
+    href: cycle,
   },
   {
     id: 12,
     navList: "How to Get Finance",
-    href: "/how-to-get-finance",
+    href: howToGetFinance,
   },
   {
     id: 13,
     navList: "How to Payback",
-    href: "/how-to-payback",
+    href: howToPayback,
   },
   {
     id: 14,
     navList: "How to Claim dues",
-    href: "/how-to-claim-dues",
+    href: howToClaimDues,
   },
   {
     id: 16,
     navList: "Testnet Info",
-    href: "/testnet-info",
+    href: testnetInfo,
   },
 ]
