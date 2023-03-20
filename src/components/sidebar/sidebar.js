@@ -4,13 +4,13 @@ import { sidebarList } from "./data"
 
 const SideBar = ({ handleClick }) => {
   return (
-    <aside className=" lg:border-r-[1px] lg:border-borderGray lg:py-20 lg:pr-8 2xl:pr-20 ">
+    <aside className=" lg:border-r-[1px] lg:border-borderGray lg:py-20 lg:w-[250px] 2xl:w-[350px]">
       <nav className="h-full overflow-y-scroll">
         <ul>
           <li>
             <h1 className="text-xl mb-5 lg:mb-10 font-bold">LEARN</h1>
           </li>
-          
+
           {sidebarList.map((navList) => (
             <div key={navList.id}>
               <_ActiveLink
