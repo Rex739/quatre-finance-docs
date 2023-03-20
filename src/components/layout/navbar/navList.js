@@ -1,7 +1,5 @@
 import React from "react"
 import SideBar from "../../sidebar/sidebar"
-import Socials from "../../socials"
-import ActiveLink from "./activeLink"
 
 const NavList = ({ isClicked, handleClick }) => {
   return (
@@ -22,7 +20,7 @@ const NavList = ({ isClicked, handleClick }) => {
             </div>
           </li>
           {/* nav list */}
-          <SideBar handleClick={undefined} />
+          <SideBar handleClick={handleClick} />
         </ul>
       </nav>
     </section>
