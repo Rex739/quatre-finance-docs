@@ -7,6 +7,7 @@ import Spinner from "../spinner"
 import React from "react"
 import TransparenLayer from "../transparentLayer"
 import SideBar from "../sidebar/sidebar"
+import Socials from "../socials"
 // Navbar and Footer Component
 
 const Layout = ({ handleClick, isClicked, children }) => {
@@ -48,8 +49,15 @@ const Layout = ({ handleClick, isClicked, children }) => {
             <div className="hidden lg:block">
               <SideBar handleClick={undefined} />
             </div>
-
             {children}
+            <div className="hidden 2xl:block xl:w-full 2xl:py-20">
+              <p className="text-base p-5 text-red-600">
+                This is a Beta version, token used does not have real value. Do
+                not use real network asset such as BNB. Be sure you're on
+                testnet before carrying out any transaction. You may experience
+                inconsistencies. Your feedbacks matter to us.
+              </p>
+            </div>
           </main>
 
           <Footer />
