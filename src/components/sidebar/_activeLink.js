@@ -3,15 +3,6 @@ import React from "react"
 
 const _ActiveLink = ({ handleClick, children, href, className }) => {
   const router = useRouter()
-  const listStyle = {
-    // marginRight: 36.5,
-    // marginLeft: 36.5,
-  }
-
-  const linkStyle = {
-    color: router.asPath === href ? "#F6F6F6" : "#FFFFFF",
-    textDecoration: router.asPath === href ? "underline" : "none"
-  }
 
   const handleActiveClick = (e) => {
     e.preventDefault()
@@ -19,11 +10,13 @@ const _ActiveLink = ({ handleClick, children, href, className }) => {
   }
 
   return (
-    <li onClick={handleClick} style={listStyle} className={className}>
+    <li onClick={handleClick} className={className}>
       <a
+        className={
+          router.asPath === href ? "text-white1 underline" : "text-borderGray hover:text-white1"
+        }
         href={href}
         onClick={handleActiveClick}
-        style={linkStyle}
         target="_newtab"
       >
         {children}

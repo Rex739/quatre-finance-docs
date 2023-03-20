@@ -41,7 +41,7 @@ const Layout = ({ handleClick, isClicked, children }) => {
         {/* white transparent layer when navbar toggle button is clicked  */}
         <TransparenLayer isClicked={isClicked} />
         <main className="relative font-gothic">
-          <ScrollButton windowIsDefined={windowIsDefined} />
+          {/* <ScrollButton windowIsDefined={windowIsDefined} /> */}
           <NavBar handleClick={handleClick} isClicked={isClicked} />
           {children}
           <Footer />

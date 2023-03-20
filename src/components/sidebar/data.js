@@ -1,3 +1,5 @@
+import React from "react";
+
 export const sidebarList = [
   {
     id: 0,
@@ -11,8 +13,8 @@ export const sidebarList = [
   },
   {
     id: 2,
-    navList: "Difference between Digesu & other apps",
-    href: "/difference-between-digesu-and-other-apps",
+    navList: <p>Difference between <br /> Digesu & other apps</p>,
+    href: "/difference-between-digesu-ad-other-apps",
   },
   {
     id: 3,
