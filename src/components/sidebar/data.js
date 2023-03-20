@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 export const sidebarList = [
   {
@@ -13,7 +13,11 @@ export const sidebarList = [
   },
   {
     id: 2,
-    navList: <p>Difference between <br /> Digesu & other apps</p>,
+    navList: (
+      <p>
+        Difference between <br /> Digesu & other apps
+      </p>
+    ),
     href: "/difference-between-digesu-ad-other-apps",
   },
   {
@@ -49,7 +53,7 @@ export const sidebarList = [
   {
     id: 9,
     navList: "Liquidation",
-    href: "/what-is-a-digesu",
+    href: "/liquidation",
   },
   {
     id: 10,
