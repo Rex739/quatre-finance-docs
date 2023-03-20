@@ -4,11 +4,11 @@ import { sidebarList } from "./data"
 
 const SideBar = ({ handleClick }) => {
   return (
-    <aside className="hidden lg:block  border-r-[1px] border-borderGray py-10 lg:py-20 lg:pr-8 ">
-      <nav className="h-screen overflow-y-scroll">
+    <aside className="hidden lg:block  border-r-[1px] border-borderGray py-10 lg:py-20 lg:pr-8 2xl:pr-20 ">
+      <nav className="h-full overflow-y-scroll">
         <ul>
           <li>
-            <h1 className="text-2xl mb-5 lg:mb-10 font-bold">LEARN</h1>
+            <h1 className="text-xl mb-5 lg:mb-10 font-bold">LEARN</h1>
           </li>
           {sidebarList.map((navList) => (
             <div key={navList.id}>
