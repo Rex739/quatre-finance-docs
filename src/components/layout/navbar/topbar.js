@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars } from "@fortawesome/free-solid-svg-icons"
 import ActiveLink from "./activeLink"
 import Link from "next/link"
 import React from "react"
