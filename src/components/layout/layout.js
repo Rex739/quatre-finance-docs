@@ -5,6 +5,7 @@ import { useEffect, useState } from "react"
 import ScrollButton from "./scrollButton"
 import Spinner from "../spinner"
 import React from "react"
+import TransparenLayer from "../transparentLayer"
 // Navbar and Footer Component
 
 const Layout = ({ handleClick, isClicked, children }) => {
@@ -36,13 +37,16 @@ const Layout = ({ handleClick, isClicked, children }) => {
       >
         <Spinner size={40} color={"white"} />
       </section>
-
-      <main className="relative font-gothic">
-        <ScrollButton windowIsDefined={windowIsDefined} />
-        <NavBar handleClick={handleClick} isClicked={isClicked} />
-        {children}
-        <Footer />
-      </main>
+      <>
+        {/* white transparent layer when navbar toggle button is clicked  */}
+        <TransparenLayer isClicked={isClicked} />
+        <main className="relative font-gothic">
+          <ScrollButton windowIsDefined={windowIsDefined} />
+          <NavBar handleClick={handleClick} isClicked={isClicked} />
+          {children}
+          <Footer />
+        </main>
+      </>
     </div>
   )
 }
