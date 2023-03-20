@@ -16,7 +16,7 @@ const SideBar = ({ handleClick }) => {
                 className="mb-4 text-sm hover:text-orange"
                 href={navList.href}
                 children={navList.navList}
-                handleClick={undefined}
+                handleClick={handleClick}
               ></_ActiveLink>
             </div>
           ))}
