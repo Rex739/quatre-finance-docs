@@ -10,6 +10,7 @@ const SideBar = ({ handleClick }) => {
           <li>
             <h1 className="text-xl mb-5 lg:mb-10 font-bold">LEARN</h1>
           </li>
+          
           {sidebarList.map((navList) => (
             <div key={navList.id}>
               <_ActiveLink

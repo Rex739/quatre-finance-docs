@@ -1,13 +1,22 @@
 import React from "react"
-import SideBar from "../components/sidebar/sidebar"
-// import SEOHead from "../components/SEOHead/SEOHead"
-// import TransparenLayer from "../components/transparentLayer"
+import Docs from "../components/docs"
+import { whatIsADigesu } from "../components/whatIsDigesu/data"
 
-const Home = ({ handleClick, isClicked }) => {
+const Home = () => {
   return (
-    <main className="">
-      
-    </main>
+    <>
+      {whatIsADigesu.map((pageContent) => (
+        <div key={pageContent.id} className="text-white1">
+          <Docs
+            heading={pageContent.heading}
+            paragraph1={pageContent.paragraph1}
+            paragraph2={pageContent.paragraph2}
+            paragraph3={pageContent.paragraph3}
+            paragraph4={pageContent.paragraph4}
+          />
+        </div>
+      ))}
+    </>
   )
 }
 
