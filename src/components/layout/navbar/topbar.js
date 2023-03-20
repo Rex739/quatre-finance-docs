@@ -31,7 +31,7 @@ const TopBar = ({ isClicked, handleClick }) => {
               <a className="mx-[36.5px] text-white1">Home</a>
             </Link>
             <Link href="/">
-              <a className="mx-[36.5px] text-white1">Learn</a>
+              <a className="mx-[36.5px] text-orange">Learn</a>
             </Link>
             <Link href="/#community">
               <a className="mx-[36.5px] text-white1">Community</a>
