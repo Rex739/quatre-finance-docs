@@ -43,7 +43,7 @@ module.exports = {
       rose: colors.rose,
       white1: "#F9F4F4", //custom white
       green1: "#121212", // background green
-      gray1: "#2E3231", // custom grey
+      gray1: "#323232", // custom grey
       borderGray: "#929191", // horizontal/ vertical line
     }),
     columns: {
