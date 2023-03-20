@@ -7,7 +7,7 @@ const Home = ({ isClicked }) => {
     <main className="bg-green1 relative lg:flex">
      
       <main className="wrapper text-white1 lg:flex">
-        <aside className="hidden lg:block">sgidsgfi</aside>
+       
         <main></main>
       </main>
     </main>
