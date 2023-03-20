@@ -1,4 +1,5 @@
 import React from "react"
+import { aboutDigesu } from "../sidebar/pageStructure/pageLinks"
 
 export const whatIsADigesu = [
   {
@@ -56,6 +57,6 @@ export const whatIsADigesu = [
         interest..
       </p>
     ),
-    next: "/about-digesu"
+    next: aboutDigesu,
   },
 ]
