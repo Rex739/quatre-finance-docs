@@ -46,7 +46,7 @@ const Layout = ({ handleClick, isClicked, children }) => {
           <NavBar handleClick={handleClick} isClicked={isClicked} />
           <main className="wrapper text-white1 lg:flex lg:border-t-[1px] border-borderGray">
             <div className="hidden lg:block">
-              <SideBar handleClick={handleClick} />
+              <SideBar handleClick={undefined} />
             </div>
 
             {children}
