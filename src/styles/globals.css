@@ -35,10 +35,6 @@ html {
     margin: 0 auto;
     overflow: hidden;
   }
-
-  .connect-raduis {
-    border-radius: 45%;
-  }
 }
 
 @media all and (min-width: 1024px) {
