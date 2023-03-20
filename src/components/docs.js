@@ -1,6 +1,14 @@
 import React from "react"
 
-const Docs = ({ heading, paragraph1, paragraph2, paragraph3, paragraph4 }) => {
+const Docs = ({
+  heading,
+  paragraph1,
+  paragraph2,
+  paragraph3,
+  paragraph4,
+  previous,
+  next,
+}) => {
   return (
     <section className="py-10 lg:py-20 wrapper">
       <div className="lg:bg-gray1 lg:px-5 lg:py-6">
@@ -13,10 +21,30 @@ const Docs = ({ heading, paragraph1, paragraph2, paragraph3, paragraph4 }) => {
         <div className="mb-5">{paragraph4}</div>
       </div>
 
-      <div>
-        <button></button>
-        <button></button>
-      </div>
+      <section>
+        {previous && (
+          <div className="border border-border-gray rounded-md">
+            <span>Previous</span>
+            <div>
+              <span>
+                <img src="images/prev.svg" alt="previous" />
+              </span>
+              <span>{previous}</span>
+            </div>
+          </div>
+        )}
+        {next && (
+          <div className="border border-border-gray rounded-md">
+            <span>Next</span>
+            <div>
+              <span>
+                <img src="images/prev.svg" alt="previous" />
+              </span>
+              <span>{next}</span>
+            </div>
+          </div>
+        )}
+      </section>
     </section>
   )
 }

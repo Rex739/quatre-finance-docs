@@ -13,11 +13,14 @@ const Home = () => {
             paragraph2={pageContent.paragraph2}
             paragraph3={pageContent.paragraph3}
             paragraph4={pageContent.paragraph4}
-          />
+            previous={pageContent.previous}
+            next={pageContent.next} 
+            
+            />
         </div>
       ))}
     </>
   )
-}
+}ƒ
 
 export default Home
