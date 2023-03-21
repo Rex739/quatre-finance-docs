@@ -1,7 +1,9 @@
 import React from "react"
 
-
-import { howToGetFinance, publicVsPrivateBand } from "../../pageStructure/pageLinks"
+import {
+  howToGetFinance,
+  publicVsPrivateBand,
+} from "../../pageStructure/pageLinks"
 
 export const _cycle = [
   {
