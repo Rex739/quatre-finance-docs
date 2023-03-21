@@ -45,7 +45,7 @@ const Layout = ({ handleClick, isClicked, children }) => {
         <main className="relative bg-green1 font-inter">
           {/* <ScrollButton windowIsDefined={windowIsDefined} /> */}
           <NavBar handleClick={handleClick} isClicked={isClicked} />
-          <main className="wrapper text-white1 lg:grid lg:grid-cols-[1fr_4fr] xl:grid-cols-[1fr_4fr_1fr] lg:border-t-[1px] border-borderGray">
+          <main className="wrapper text-white1 lg:grid lg:grid-cols-[1fr_4fr] xl:grid-cols-[1fr_2fr_1fr] lg:border-t-[1px] border-borderGray">
             <div className="hidden lg:block">
               <SideBar handleClick={undefined} />
             </div>
