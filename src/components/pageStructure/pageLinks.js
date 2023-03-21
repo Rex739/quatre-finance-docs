@@ -2,7 +2,7 @@
 export const whatIsADigesu = ""
 export const aboutDigesu = "/about-digesu"
 export const differenceBetweenDigesuAndOtherDapps =
-  "/difference-between-digesu-ad-other-apps"
+  "/difference-between-digesu-and-other-apps"
 export const whatIsABand = "/what-is-a-band"
 export const stepsInABand = "/steps-in-a-band"
 export const quorum = "/quorum"

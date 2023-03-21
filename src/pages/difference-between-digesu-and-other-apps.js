@@ -1,10 +1,12 @@
 import React from "react";
-import { _aboutDigesu } from "../components/pages/aboutDigesu/data";
 import Docs from "../components/pageStructure/docs";
-const AboutDigesu = () => {
+ import { _differnceBetweenDigesuAndOtherDapps } from "../components/pages/DigesuAndDapps/data"
+
+const DifferenceBetweenDigesuAndOtherDapps = () => {
+ 
   return (
     <>
-      {_aboutDigesu.map((pageContent) => (
+      {_differnceBetweenDigesuAndOtherDapps.map((pageContent) => (
         <div key={pageContent.id} className="text-white1">
           <Docs
             heading={pageContent.heading}
@@ -12,7 +14,7 @@ const AboutDigesu = () => {
             paragraph2={pageContent.paragraph2}
             paragraph3={pageContent.paragraph3}
             paragraph4={pageContent.paragraph4}
-            next={"Digesu & other Apps"}
+            next={"About Digesu"}
             nextLink={pageContent.next}
             prevLink={pageContent.previous}
             previous={"What is a Digesu?"}
@@ -23,4 +25,4 @@ const AboutDigesu = () => {
   )
 }
  
-export default AboutDigesu;
+export default DifferenceBetweenDigesuAndOtherDapps;
