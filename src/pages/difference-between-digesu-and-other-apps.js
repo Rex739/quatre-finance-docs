@@ -14,10 +14,10 @@ const DifferenceBetweenDigesuAndOtherDapps = () => {
             paragraph2={pageContent.paragraph2}
             paragraph3={pageContent.paragraph3}
             paragraph4={pageContent.paragraph4}
-            next={"About Digesu"}
+            previous={"About Digesu"}
             nextLink={pageContent.next}
             prevLink={pageContent.previous}
-            previous={"What is a Digesu?"}
+            next={"What is a Band?"}
           />
         </div>
       ))}
