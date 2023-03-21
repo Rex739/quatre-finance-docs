@@ -1,8 +1,8 @@
 import React from "react"
 
 import {
-  differenceBetweenDigesuAndOtherDapps,
-  stepsInABand,
+  quorum,
+  whatIsABand,
 } from "../../pageStructure/pageLinks"
 
 export const _stepsInABand = [
@@ -19,15 +19,15 @@ export const _stepsInABand = [
     paragraph2: (
       <p>
         It then enters a waiting mode for the quorum to be achieved. Soon as the
-        'quorun is met, 'GET FINANCE is activated done in first-in-first-out
+        &apos;quorun is met&apos;, GET FINANCE is activated done in first-in-first-out
         basis. First user to join the pool becomes the first to GF i.e
-        GETFINANCE'. On or before the duration period, the current Gfer (i.e
+        GETFINANCE. On or before the duration period, the current Gfer (i.e
         beneficiary) is able to return the given amount to the pool otherwise,
         they can be liquidated.
       </p>
     ),
     paragraph3: <p>See next section on how liquidation works.</p>,
-    previous: differenceBetweenDigesuAndOtherDapps,
-    next: stepsInABand,
+    previous: whatIsABand,
+    next: quorum
   },
 ]
