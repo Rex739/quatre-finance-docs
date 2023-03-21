@@ -14,7 +14,7 @@ const SideBar = ({ handleClick }) => {
           {sidebarList.map((navList) => (
             <div key={navList.id}>
               <_ActiveLink
-                className="mb-4 text-sm hover:text-orange"
+                className="mb-4 text-sm hover:text-orange font-semibold"
                 href={navList.href}
                 children={navList.navList}
                 handleClick={handleClick}
