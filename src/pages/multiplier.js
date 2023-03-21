@@ -16,7 +16,7 @@ const Multiplier = () => {
             previous={"Duration"}
             nextLink={pageContent.next}
             prevLink={pageContent.previous}
-            next={"liquidation"}
+            next={"Liquidation"}
           />
         </div>
       ))}
