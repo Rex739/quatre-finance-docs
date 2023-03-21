@@ -15,7 +15,7 @@ import {
   stepsInABand,
   testnetInfo,
   whatIsABand,
-} from "./pageStructure/pageLinks"
+} from "../pageStructure/pageLinks"
 
 export const sidebarList = [
   {

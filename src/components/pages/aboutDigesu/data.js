@@ -1,5 +1,5 @@
 import React from "react"
-import { differenceBetweenDigesuAndOtherDapps } from "../../sidebar/pageStructure/pageLinks"
+import { differenceBetweenDigesuAndOtherDapps } from "../../pageStructure/pageLinks"
 import { whatIsADigesu } from "../whatIsDigesu/data"
 
 export const _aboutDigesu = [

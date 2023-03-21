@@ -1,5 +1,5 @@
 import React from "react"
-import { aboutDigesu } from "../../sidebar/pageStructure/pageLinks"
+import { aboutDigesu } from "../../pageStructure/pageLinks"
 
 export const whatIsADigesu = [
   {
