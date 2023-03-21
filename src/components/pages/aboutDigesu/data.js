@@ -1,6 +1,6 @@
 import React from "react"
 import { differenceBetweenDigesuAndOtherDapps } from "../../pageStructure/pageLinks"
-import { whatIsADigesu } from "../whatIsDigesu/data"
+import { whatIsADigesu } from "../../pageStructure/pageLinks"
 
 export const _aboutDigesu = [
   {
