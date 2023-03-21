@@ -1,5 +1,5 @@
 // page links
-export const whatIsADigesu = ""
+export const whatIsADigesu = "/"
 export const aboutDigesu = "/about-digesu"
 export const differenceBetweenDigesuAndOtherDapps =
   "/difference-between-digesu-and-other-apps"

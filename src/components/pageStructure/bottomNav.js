@@ -4,7 +4,7 @@ import React from "react"
 const BottomNav = ({ previous, next, prevLink, nextLink }) => {
   return (
     <section className="flex justify-between py-10 lg:py-20">
-      <Link href={prevLink}>
+      <Link href={"/" + prevLink}>
         <a
           className={[
             "w-2/4  border border-borderGray rounded-md flex justify-start text-left px-2 mr-2 lg:mr-5 py-3 ",
@@ -12,9 +12,7 @@ const BottomNav = ({ previous, next, prevLink, nextLink }) => {
           ].join(" ")}
         >
           <button className="flex flex-col">
-            <span className="font-meduim text-xs text-left mr-auto">
-              Previous
-            </span>
+            <span className="font-meduim text-xs text-left mr-auto">Previous</span>
             <div className="flex">
               <img src="images/prev.svg" alt="previous" />
               <span className="ml-[8px] text-xs lg:text-base font-meduim text-orange">
