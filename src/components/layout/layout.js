@@ -45,11 +45,11 @@ const Layout = ({ handleClick, isClicked, children }) => {
         <main className="relative bg-green1 font-inter">
           {/* <ScrollButton windowIsDefined={windowIsDefined} /> */}
           <NavBar handleClick={handleClick} isClicked={isClicked} />
-          <main className="wrapper text-white1 lg:flex lg:border-t-[1px] border-borderGray">
+          <main className="wrapper text-white1 lg:grid lg:grid-cols-[1fr_4fr] xl:grid-cols-[1fr_4fr_1fr] lg:border-t-[1px] border-borderGray">
             <div className="hidden lg:block">
               <SideBar handleClick={undefined} />
             </div>
-            {children}
+            <div className="">{children}</div>
             <div className="hidden 2xl:block xl:w-full 2xl:py-20">
               <p className="text-base p-5 text-red-600">
                 This is a Beta version, token used does not have real value. Do
