@@ -25,6 +25,7 @@ const Docs = ({
         <div className="mb-5">{paragraph4}</div>
       </div>
 
+      {/* botton nav holds previous and next navigation buttons */}
       <BottomNav
         next={next}
         previous={previous}

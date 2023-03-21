@@ -1,6 +1,6 @@
 import React from "react"
 import Docs from "../components/sidebar/pageStructure/docs"
-import { whatIsADigesu } from "../components/whatIsDigesu/data"
+import { whatIsADigesu } from "../components/pages/whatIsDigesu/data"
 
 const Home = () => {
   return (
