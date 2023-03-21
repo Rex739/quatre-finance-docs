@@ -13,7 +13,7 @@ const StepsInABand = () => {
             paragraph2={pageContent.paragraph2}
             paragraph3={pageContent.paragraph3}
             paragraph4={pageContent.paragraph4}
-            previous={"What is a Band"}
+            previous={"What Is A Band"}
             nextLink={pageContent.next}
             prevLink={pageContent.previous}
             next={"Quorum"}

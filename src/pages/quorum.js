@@ -13,7 +13,7 @@ const Quorum = () => {
             paragraph2={pageContent.paragraph2}
             paragraph3={pageContent.paragraph3}
             paragraph4={pageContent.paragraph4}
-            previous={"Steps in a Band"}
+            previous={"Steps In A Band"}
             nextLink={pageContent.next}
             prevLink={pageContent.previous}
             next={"Amount"}

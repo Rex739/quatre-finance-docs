@@ -12,10 +12,10 @@ const AboutDigesu = () => {
             paragraph2={pageContent.paragraph2}
             paragraph3={pageContent.paragraph3}
             paragraph4={pageContent.paragraph4}
-            next={"Digesu & other Apps"}
+            next={"Digesu & Other Apps"}
             nextLink={pageContent.next}
             prevLink={pageContent.previous}
-            previous={"What is a Digesu?"}
+            previous={"What Is A Digesu?"}
           />
         </div>
       ))}

@@ -17,7 +17,7 @@ const DifferenceBetweenDigesuAndOtherDapps = () => {
             previous={"About Digesu"}
             nextLink={pageContent.next}
             prevLink={pageContent.previous}
-            next={"What is a Band?"}
+            next={"What Is A Band?"}
           />
         </div>
       ))}

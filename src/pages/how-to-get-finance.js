@@ -16,7 +16,7 @@ const HowToGetFinance = () => {
             previous={"Cycle"}
             nextLink={pageContent.next}
             prevLink={pageContent.previous}
-            next={"How to Payback"}
+            next={"How To Payback"}
           />
         </div>
       ))}

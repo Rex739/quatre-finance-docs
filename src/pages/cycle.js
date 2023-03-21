@@ -16,7 +16,7 @@ const Cycle = () => {
             previous={"Public VS Private Band"}
             nextLink={pageContent.next}
             prevLink={pageContent.previous}
-            next={"How to Get Finance"}
+            next={"How To Get Finance"}
           />
         </div>
       ))}

@@ -13,10 +13,10 @@ const WhatIsABand = () => {
             paragraph2={pageContent.paragraph2}
             paragraph3={pageContent.paragraph3}
             paragraph4={pageContent.paragraph4}
-            previous={"Digesu & other Apps"}
+            previous={"Digesu & Other Apps"}
             nextLink={pageContent.next}
             prevLink={pageContent.previous}
-            next={"Steps in a Band"}
+            next={"Steps In A Band"}
           />
         </div>
       ))}
