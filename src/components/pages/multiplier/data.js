@@ -8,7 +8,7 @@ export const _multiplier = [
     heading: "MULTIPLIER",
     paragraph1: (
       <p>
-        A band with 1.5x multiplier requires the current GF'er to deposit
+        A band with 1.5x multiplier requires the current GF&apos;er to deposit
         collateral in a function of 1.5 time the pooled amount i.e If multiplier
         is 1, then collateral is not needed.
       </p>
