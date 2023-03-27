@@ -20,6 +20,16 @@ const NavList = ({ isClicked, handleClick }) => {
             </div>
           </li>
           {/* nav list */}
+          <li className="flex lg:hidden mb-5">
+            <img
+              src="images/back_arrow.svg"
+              alt="back to home"
+              className="mr-2"
+            />{" "}
+            <span className="text-base">
+              <a href="/home"  className="hover:text-orange">back to home</a>{" "}
+            </span>{" "}
+          </li>
           <SideBar handleClick={handleClick} />
         </ul>
       </nav>
