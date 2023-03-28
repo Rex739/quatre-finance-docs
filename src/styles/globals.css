@@ -31,7 +31,7 @@ html {
 /* button hover effects */
 
 /* Underline From Center */
-.underlineFromCenter {
+.underlineFromLeft {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -40,7 +40,7 @@ html {
   position: relative;
   overflow: hidden;
 }
-.underlineFromCenter:before {
+.underlineFromLeft:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -56,9 +56,9 @@ html {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.underlineFromCenter:hover:before,
-.underlineFromCenter:focus:before,
-.underlineFromCenter:active:before {
+.underlineFromLeft:hover:before,
+.underlineFromLeft:focus:before,
+.underlineFromLeft:active:before {
   right: 0;
 }
 
