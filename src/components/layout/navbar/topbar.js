@@ -39,7 +39,8 @@ const TopBar = ({ isClicked, handleClick }) => {
           </div>
           <li className="hidden lg:flex">
             <a href="">
-              <button className="underlineFromLeft font-bold bg-orange w-[174px] h-[60px] rounded-lg text-white1">
+              <button className={["underlineFromLeft", //  css code in global.css
+                "font-bold bg-orange w-[174px] h-[60px] rounded-lg text-white1"].join(" ")}>
                 Go To App
               </button>
             </a>
