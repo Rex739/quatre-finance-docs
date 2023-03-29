@@ -12,7 +12,7 @@ const NavList = ({ isClicked, handleClick }) => {
         }
       >
         <ul
-          className={isClicked ? "flex flex-col items-start h-full" : "hidden"}
+          className={isClicked? "flex flex-col items-start h-full" : "hidden"}
         >
           <li className="flex relative mb-10 pt-10">
             <div className={isClicked ? "" : "hidden"} onClick={handleClick}>
