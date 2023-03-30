@@ -30,7 +30,8 @@ const NavList = ({ isClicked, handleClick }) => {
               <a href="/home"  className="hover:text-orange">back to home</a>{" "}
             </span>{" "}
           </li>
-          <SideBar handleClick={handleClick} />
+          <SideBar
+            handleClick={handleClick} />
         </ul>
       </nav>
     </section>
