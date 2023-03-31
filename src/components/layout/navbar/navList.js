@@ -12,7 +12,7 @@ const NavList = ({ isClicked, handleClick }) => {
         }
       >
         <ul
-          className={isClicked? "flex flex-col items-start h-full" : "hidden"}
+          className={isClicked ? "flex flex-col items-start h-full" : "hidden"}
         >
           <li className="flex relative mb-10 pt-10">
             <div className={isClicked ? "" : "hidden"} onClick={handleClick}>
@@ -27,11 +27,12 @@ const NavList = ({ isClicked, handleClick }) => {
               className="mr-2"
             />{" "}
             <span className="text-base">
-              <a href="/home"  className="hover:text-orange">back to home</a>{" "}
+              <a href="/home" className="hover:text-orange">
+                back to home
+              </a>{" "}
             </span>{" "}
           </li>
-          <SideBar
-            handleClick={handleClick} />
+          <SideBar handleClick={handleClick} />
         </ul>
       </nav>
     </section>
