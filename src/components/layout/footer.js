@@ -13,7 +13,10 @@ import Link from "next/link"
 
 const Footer = () => {
   return (
-    <footer className="bg-gray1 py-12 lg:py-[6rem] text-white font-inter">
+    <footer
+      className="bg-gray1 py-12 lg:py-[6rem] text-white font-inter"
+      id="footer"
+    >
       <div className="wrapper flex flex-col lg:flex-row justify-between">
         <ul className="mb-[40px]">
           <li>
