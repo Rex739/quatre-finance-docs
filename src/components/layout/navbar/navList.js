@@ -27,7 +27,10 @@ const NavList = ({ isClicked, handleClick }) => {
               className="mr-2"
             />{" "}
             <span className="text-base">
-              <a href="/home" className="hover:text-orange">
+              <a
+                href="https://quatre-finance-docs.vercel.app/"
+                className="hover:text-orange"
+              >
                 back to home
               </a>{" "}
             </span>{" "}
