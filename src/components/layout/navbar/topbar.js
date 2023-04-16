@@ -27,7 +27,7 @@ const TopBar = ({ isClicked, handleClick }) => {
             </div>
           </li>
           <div className="hidden lg:flex font-medium">
-            <Link href="/home">
+            <Link href="https://quatre-finance-interface.vercel.app/">
               <a className="mx-[36.5px] text-white1">Home</a>
             </Link>
             <Link href="/">
